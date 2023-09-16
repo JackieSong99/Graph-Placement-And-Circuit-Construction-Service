@@ -1,0 +1,10 @@
+Django==3.2.7
+djangorestframework==3.12.4
+mysqlclient==2.0.3
+django-mysql==4.0.0
+django-cors-headers==3.8.0
+drf-yasg==1.20.0
+PyYAML==6.0
+neo4j==4.3.4
+Flask==1.1.2
+django_neomodel==0.0.7

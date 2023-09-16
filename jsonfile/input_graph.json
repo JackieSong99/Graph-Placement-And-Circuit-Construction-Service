@@ -1,0 +1,138 @@
+{
+    "demand": {
+        "vertices": [
+          {"node1": {
+                    "uid": 0,
+                    "noVCPU": 1,
+                    "noVGPU": 2,
+                    "memory": 3,
+                    "isConnected": true,
+                    "isAvailable": true,
+                    "isUsing": false
+                }},
+          {"node2": {
+                    "uid": 1,
+                    "noVCPU": 7,
+                    "noVGPU": 3,
+                    "memory": 5,
+                    "isConnected": true,
+                    "isAvailable": true,
+                    "isUsing": false
+                }},
+          {"node3": {
+                    "uid": 2,
+                    "noVCPU": 6,
+                    "noVGPU": 2,
+                    "memory": 4,
+                    "isConnected": true,
+                    "isAvailable": true,
+                    "isUsing": false
+          }},
+          {"node4": {
+                    "uid": 3,
+                    "noVCPU": 4,
+                    "noVGPU": 5,
+                    "memory": 4,
+                    "isConnected": true,
+                    "isAvailable": true,
+                    "isUsing": false
+          }},
+          {"node5": {
+                    "uid": 4,
+                    "noVCPU": 3,
+                    "noVGPU": 1,
+                    "memory": 5,
+                    "isConnected": true,
+                    "isAvailable": true,
+                    "isUsing": false
+          }}
+        ],
+        "edges": [
+          {"edge1": {
+                  "uid": 5,
+                  "weight": 5,
+                  "source": 0,
+                  "destination": 1
+              }},
+          {"edge2": {
+                  "uid": 6,
+                  "weight": 10,
+                  "source": 1,
+                  "destination": 2
+              }},
+          {"edge3": {
+                  "uid": 7,
+                  "weight": 5,
+                  "source": 3,
+                  "destination": 4
+              }}
+        ]
+    },
+    "supply": {
+        "vertices": [
+          {"node1": {
+                  "uid": 8,
+                  "noVCPU": 7,
+                  "noVGPU": 7,
+                  "memory": 7,
+                  "isAvailable": true,
+                  "isUsing": false
+              }},
+          {"node2": {
+                  "uid": 9,
+                  "noVCPU": 8,
+                  "noVGPU": 5,
+                  "memory": 5,
+                  "isConnected": true,
+                  "isAvailable": true,
+                  "isUsing": false
+              }},
+          {"node3": {
+                  "uid": 10,
+                  "noVCPU": 7,
+                  "noVGPU": 7,
+                  "memory": 7,
+                  "isConnected": true,
+                  "isAvailable": true,
+                  "isUsing": false
+                }},
+
+          {"node4": {
+                  "uid": 11,
+                  "noVCPU": 9,
+                  "noVGPU": 3,
+                  "memory": 9,
+                  "isConnected": true,
+                  "isAvailable": true,
+                  "isUsing": false
+              }}
+        ],
+        "edges": [
+          {"edge1": {
+                  "uid": 12,
+                  "weight": 15,
+                  "source": 8,
+                  "destination": 9
+              }},
+          {"edge2": {
+                  "uid": 13,
+                  "weight": 5,
+                  "source": 9,
+                  "destination": 10
+              }},
+          {"edge3": {
+                  "uid": 14,
+                  "weight": 10,
+                  "source": 9,
+                  "destination": 11
+          }},
+          {"edge4": {
+                  "uid": 15,
+                  "weight": 5,
+                  "source": 10,
+                  "destination": 11
+              }}
+        ]
+    },
+    "prioritization": 2
+}

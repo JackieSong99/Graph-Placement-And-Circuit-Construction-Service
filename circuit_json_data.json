@@ -1,0 +1,112 @@
+{
+    "InputWire": 4,
+    "Gates": [
+        {
+            "ID": 5,
+            "Type": "IntegerAsCircuit",
+            "Input": [],
+            "Output": [
+                6
+            ],
+            "Info": 5
+        },
+        {
+            "ID": 6,
+            "Type": "Choose",
+            "Input": [
+                1,
+                5
+            ],
+            "Output": [
+                12
+            ],
+            "Info": -1
+        },
+        {
+            "ID": 7,
+            "Type": "IntegerAsCircuit",
+            "Input": [],
+            "Output": [
+                8
+            ],
+            "Info": 7
+        },
+        {
+            "ID": 8,
+            "Type": "Choose",
+            "Input": [
+                2,
+                7
+            ],
+            "Output": [
+                12
+            ],
+            "Info": -1
+        },
+        {
+            "ID": 9,
+            "Type": "IntegerAsCircuit",
+            "Input": [],
+            "Output": [
+                10
+            ],
+            "Info": 8
+        },
+        {
+            "ID": 10,
+            "Type": "Choose",
+            "Input": [
+                3,
+                9
+            ],
+            "Output": [
+                12
+            ],
+            "Info": -1
+        },
+        {
+            "ID": 11,
+            "Type": "IntegerAsCircuit",
+            "Input": [],
+            "Output": [
+                13
+            ],
+            "Info": 20
+        },
+        {
+            "ID": 12,
+            "Type": "Sum",
+            "Input": [
+                6,
+                8,
+                10
+            ],
+            "Output": [
+                13
+            ],
+            "Info": -1
+        },
+        {
+            "ID": 13,
+            "Type": "LessEquals",
+            "Input": [
+                12,
+                11
+            ],
+            "Output": [
+                14
+            ],
+            "Info": -1
+        },
+        {
+            "ID": 14,
+            "Type": "And",
+            "Input": [
+                4,
+                13
+            ],
+            "Output": [],
+            "Info": -1
+        }
+    ]
+}

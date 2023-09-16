@@ -1,0 +1,81 @@
+{
+    "demand": {
+        "vertices": [
+          {"node1": {
+                    "uid": 0,
+                    "noVCPU": 1,
+                    "noVGPU": 2,
+                    "isConnected": true,
+                    "isAvailable": true,
+                    "isUsing": false
+                }},
+          {"node2": {
+                    "uid": 1,
+                    "noVCPU": 2,
+                    "noVGPU": 2,
+                    "isConnected": true,
+                    "isAvailable": true,
+                    "isUsing": false
+                }},
+          {"node3": {
+                    "uid": 2,
+                    "noVCPU": 3,
+                    "noVGPU": 4,
+                    "isConnected": true,
+                    "isAvailable": true,
+                    "isUsing": false
+          }},
+          {"node4": {
+                    "uid": 3,
+                    "noVCPU": 1,
+                    "noVGPU": 1,
+                    "isConnected": true,
+                    "isAvailable": true,
+                    "isUsing": false
+          }}
+        ],
+        "edges": [
+          {"edge1": {
+                  "uid": 4,
+                  "weight": 10,
+                  "source": 0,
+                  "destination": 1
+              }},
+          {"edge2": {
+                  "uid": 5,
+                  "weight": 20,
+                  "source": 2,
+                  "destination": 3
+              }}
+        ]
+    },
+    "supply": {
+        "vertices": [
+          {"node1": {
+                  "uid": 6,
+                  "noVCPU": 10,
+                  "noVGPU": 10,
+                  "isConnected": true,
+                  "isAvailable": true,
+                  "isUsing": false
+              }},
+          {"node2": {
+                  "uid": 7,
+                  "noVCPU": 5,
+                  "noVGPU": 6,
+                  "isConnected": true,
+                  "isAvailable": true,
+                  "isUsing": false
+              }}
+        ],
+        "edges": [
+          {"edge1": {
+                  "uid": 8,
+                  "weight": 5,
+                  "source": 0,
+                  "destination": 1
+              }}
+        ]
+    },
+    "prioritization":2
+}

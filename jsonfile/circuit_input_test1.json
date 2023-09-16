@@ -1,0 +1,39 @@
+{
+  "InputWire": 2,
+  "Gates": [
+    {
+      "ID": 3,
+      "Type": "And",
+      "Input": [
+        1,
+        2
+      ],
+      "Output": [
+        5
+      ],
+      "Info": -1
+    },
+    {
+      "ID": 4,
+      "Type": "BitNot",
+      "Input": [
+        2
+      ],
+      "Output": [
+        5
+      ],
+      "Info": -1
+    },
+    {
+      "ID": 5,
+      "Type": "And",
+      "Input": [
+        3,
+        4
+      ],
+      "Output": [
+      ],
+      "Info": -1
+    }
+  ]
+}

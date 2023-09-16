@@ -1,0 +1,66 @@
+{
+  "InputWire": 1,
+  "Gates": [
+    {
+      "ID": 2,
+      "Type": "ZeroOne",
+      "Input": [],
+      "Output": [
+        4
+      ],
+      "Info": 1
+    },
+    {
+      "ID": 3,
+      "Type": "IntegerAsCircuit",
+      "Input": [],
+      "Output": [
+        4
+      ],
+      "Info": 9
+    },
+    {
+      "ID": 4,
+      "Type": "Choose",
+      "Input": [
+        2,
+        3
+      ],
+      "Output": [
+        6
+      ],
+      "Info": -1
+    },
+    {
+      "ID": 5,
+      "Type": "IntegerAsCircuit",
+      "Input": [],
+      "Output": [
+        6
+      ],
+      "Info": 20
+    },
+    {
+      "ID": 6,
+      "Type": "LessEquals",
+      "Input": [
+        4,
+        5
+      ],
+      "Output": [
+        7
+      ],
+      "Info": -1
+    },
+    {
+      "ID": 7,
+      "Type": "And",
+      "Input": [
+        1,
+        6
+      ],
+      "Output": [],
+      "Info": -1
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "InputWire": 3,
+  "Gates": [
+    {
+      "ID": 4,
+      "Type": "Or",
+      "Input": [
+        1,
+        2
+      ],
+      "Output": [
+        6
+      ],
+      "Info": -1
+    },
+    {
+      "ID": 5,
+      "Type": "BitNot",
+      "Input": [
+        3
+      ],
+      "Output": [
+        7,
+        8
+      ],
+      "Info": -1
+    },
+    {
+      "ID": 6,
+      "Type": "Or",
+      "Input": [
+        4,
+        7
+      ],
+      "Output": [
+        10
+      ],
+      "Info": -1
+    },
+    {
+      "ID": 7,
+      "Type": "BitNot",
+      "Input": [
+        5
+      ],
+      "Output": [
+        6,
+        9
+      ],
+      "Info": -1
+    },
+    {
+      "ID": 8,
+      "Type": "And",
+      "Input": [
+        1,
+        2,
+        5
+      ],
+      "Output": [
+        9,
+        10
+      ],
+      "Info": -1
+    },
+    {
+      "ID": 9,
+      "Type": "Or",
+      "Input": [
+        7,
+        8
+      ],
+      "Output": [
+        10
+      ],
+      "Info": -1
+    },
+    {
+      "ID": 10,
+      "Type": "And",
+      "Input": [
+        6,
+        8,
+        9
+      ],
+      "Output": [],
+      "Info": -1
+    }
+  ]
+}

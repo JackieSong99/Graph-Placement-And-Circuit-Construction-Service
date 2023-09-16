@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  optimization:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: optimization
+    ports:
+      - 8999:8999
+    volumes:
+      - .:/app
+
+
